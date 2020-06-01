@@ -17,3 +17,11 @@ jobs:
         run: |
           node -v
           npm -v
+      
+      # step's name, step number 3
+      - name: Python Command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
+        
